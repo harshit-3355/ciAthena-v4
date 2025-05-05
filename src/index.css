@@ -1,0 +1,31 @@
+body {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background-color: #f6f6f6;
+}
+
+.slide-up {
+  animation: slide-up 1s infinite;
+}
+
+@keyframes slide-up {
+  0%,
+  10% {
+    transform: translateY(0%);
+  }
+  25%,
+  35% {
+    transform: translateY(-100%);
+  }
+  50%,
+  60% {
+    transform: translateY(-200%);
+  }
+  75%,
+  85% {
+    transform: translateY(-300%);
+  }
+}
